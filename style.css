@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline:none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	background: #f7f7f7;
+	font-size: 1em;
+	font-family: "Segoe UI" , sans-serif;
+	line-height: 135%;
+	background: url(img/background3.jpg);
+}
+
+header, footer {
+	width: 98%;
+	background-color: #212;
+	min-height: 20px;
+}
+
+header {
+	border-bottom: 2px solid silver;
+	padding: 1%;
+}
+
+
+footer {
+	border-top: 2px solid silver;
+	border-bottom: 2%;
+	min-height: 100px;
+	margin-top: 45%;
+	padding: 1%;
+}
+
+
+nav{
+  margin:10px 10px;
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+  width:120px;
+  display:inline-block;
+  text-align:center;
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+}
+
+a:nth-child(1) ~ div{
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+  
+}
+
+a:nth-child(2):hover ~ div {
+  transform:translate(120px);
+  -webkit-transform:translate(120px);
+  background-color:#e74c3c;
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+}
+
+a:nth-child(3):hover ~ div {
+  transform:translate(120px);
+  -webkit-transform:translate(240px);
+  background-color:#BF55EC;
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+}
+
+
+a:nth-child(4):hover ~ div {
+  transform:translate(120px);
+  -webkit-transform:translate(360px);
+  background-color:#f39c12;
+  color:#03C9A9;
+  transition:all .33s linear;
+  -webkit-transition:all .33s linear;
+}
+
+
+a:nth-child(2):hover {
+  color:#e74c3c;
+}
+
+a:nth-child(3):hover {
+  color:#BF55EC;
+}
+
+a:nth-child(4):hover {
+  color:#f39c12;
+}
+
+a:nth-child(5):hover {
+  color:#DC143C;
+}
+
+a:nth-child(6):hover {
+  color:#8FBC8F;
+}
+
+
+img {
+	max-height:100%;
+	height: auto;
+}
+
+.right { float: right }
+
+.left { float: left}
+
+.rightpic {
+    float: right;
+	margin: -90 0 5px 5px;
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   
+
+.contact{
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+.form-row {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.form-row input {
+	float: right;
+	height: 19px;
+	line-height: 19px;
+	padding: 0px 5px;
+	width: 287px;
+	border: 2px solid #ABADB3;
+}
+
+.reg-from {
+	width: 416px;
+	margin: 0px auto;
+}
+
+h1 {
+	text-align: center ;
+}
+
+.form
